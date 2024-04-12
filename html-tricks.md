@@ -2,17 +2,59 @@
 
 > ⚠️ __Important__
 > 
-> This guide is not meant to be any kind of definitive or comprehensive resource for HTML (or anything else).
+> __This guide is not meant to be any kind of definitive or comprehensive resource for HTML (or anything else).__
+>
+> Any information found anywhere in this repository is almost certainly __meant for something *very* specific__ and is likely __*extremely* oversimplified__.
+
+## HTML Tage & Elements for Dummies
+
+To put things very, *very*, __*VERY*__ simply...
+
+
+### Tags
+
+Tags are usually referred to as the *Building Blocks of HTML*, and that's exactly what they are. Everything in HTML is made of tags. Everything.
+
+
+#### What does an *HTML Tag* look like?
+
+Here are a few of the most common/basic tags:
+
+##### Line Breaks (New Line)
+```
+<br />
+<br/>
+<br>
+```
 
 
 
-Any information found anywhere in this repository is almost certainly **meant for something very specific** and is likely extremely oversimplified.
+### Elements *Open* and *Close*
+
+No, it's nothing like a door opening and closing. Think of it more along the lines of __Beginning__ and __Ending__.
 
 
 
-
+<br /><br />
 
 ## Creating Embedded Hyperlinks
+
+### Basic Format
+
+#### Single-Line
+```html
+<a href="URL">TEXT</a>
+```
+
+#### Multi-Line
+```
+<a href="URL">
+  TEXT
+</a>
+```
+
+
+
 
 > ℹ️ __Note__
 >
@@ -23,13 +65,14 @@ Any information found anywhere in this repository is almost certainly **meant fo
 > For more information about the HTML Anchor `<a>` Element, please refer to Mozilla's official [Anchor Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) documentation.
 
 
-```html
-<a href="URL">TEXT</a>
-``` 
 
 
 
-<a href="tel:6469078609">Test</a>
+
+### What is an hyperlink?
+
+
+
 
 
 
