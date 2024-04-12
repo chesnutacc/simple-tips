@@ -21,7 +21,7 @@ Tags are usually referred to as the *Building Blocks of HTML*, and that's exactl
 Here are a few of the most common/basic tags:
 
 ##### Line Breaks (New Line)
-```
+```html
 <br />
 <br/>
 <br>
@@ -29,11 +29,15 @@ Here are a few of the most common/basic tags:
 
 
 
-### Elements *Open* and *Close*
+### How are Elements different from Tags?
+
+Elements [`<Open>`](https://) and `</Close>`
+
+
 
 No, it's nothing like a door opening and closing. Think of it more along the lines of __Beginning__ and __Ending__.
 
-
+`<>`
 
 <br /><br />
 
@@ -47,7 +51,7 @@ No, it's nothing like a door opening and closing. Think of it more along the lin
 ```
 
 #### Multi-Line
-```
+```html
 <a href="URL">
   TEXT
 </a>
