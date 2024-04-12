@@ -8,17 +8,29 @@
 
 ## HTML Tage & Elements for Dummies
 
-To put things very, *very*, __*VERY*__ simply...
+Because I want to keep this as easy and user friendly as I possibly can, I'm going to oversimplify things as much as I possibly can.
+
+At its core, __HTML__ is built entirely with two main components: __Tags__ and __Elements__.
+
+1. __Tags__: 
 
 
-### Tags
+
+<img src="./img/DO_Elements-Diag.png"
+    alt="Simple diagram illustrating the different components of HTML Elements (image from DigitalOcean)"
+/>
+
+
+
+### HTML Tags
 
 Tags are usually referred to as the *Building Blocks of HTML*, and that's exactly what they are. Everything in HTML is made of tags. Everything.
 
 
 #### What does an *HTML Tag* look like?
 
-Here are a few of the most common/basic tags:
+HTML tags 
+
 
 ##### Line Breaks (New Line)
 ```html
@@ -29,7 +41,12 @@ Here are a few of the most common/basic tags:
 
 
 
-### How are Elements different from Tags?
+
+<br />
+
+### HTML Elements
+
+How are Elements different from Tags?
 
 Elements [`<Open>`](https://) and `</Close>`
 
@@ -43,19 +60,30 @@ No, it's nothing like a door opening and closing. Think of it more along the lin
 
 ## Creating Embedded Hyperlinks
 
+Adding and creating __Hyperlinks__ has become so universally streamlined and automated that, at this point, people just expect hyperlinks from any URL they paste into a text field, or send in a message.
+
+
+And that's exactly how it should be. Universal defaults are (usually) a wonderful thing.
+
+
+
+, because 99.9% of the time, that's exactly how it works for pretty much everything.
+
+
+
+So, what happens when you paste a URL and it doesn't automatically become blue text that can magically take you to where you want to go?
+
+
+
+
 ### Basic Format
 
-#### Single-Line
+
+
 ```html
 <a href="URL">TEXT</a>
 ```
 
-#### Multi-Line
-```html
-<a href="URL">
-  TEXT
-</a>
-```
 
 
 
