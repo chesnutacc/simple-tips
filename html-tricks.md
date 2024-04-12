@@ -12,13 +12,20 @@ Because I want to keep this as easy and user friendly as I possibly can, I'm goi
 
 At its core, __HTML__ is built entirely with two main components: __Tags__ and __Elements__.
 
-1. __Tags__: 
+1. __Tags__: The *"Self-Contained"* Building Blocks of HTML.
+2. __Elements:__ The foundation for basically all content on an HTML web page.
+
+Below is a simple diagram that illustrates the differnt parts of an __HTML Element__
+
+
+[What is an HTML Tag?](https://www.digitalocean.com/community/tutorials/what-is-an-html-tag#) tutorial by [DigitalOcean](https://digitalocean.com).
 
 
 
 <img src="./img/DO_Elements-Diag.png"
     alt="Simple diagram illustrating the different components of HTML Elements (image from DigitalOcean)"
 />
+
 
 
 
