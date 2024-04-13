@@ -23,7 +23,7 @@ Below is a simple diagram that illustrates the differnt parts of an __HTML Eleme
 
 
 <img src="./img/DO_Elements-Diag.png"
-    alt="Simple diagram illustrating the different components of HTML Elements (image from DigitalOcean)"
+    alt="HTML Elements (image from DigitalOcean)"
 />
 
 
