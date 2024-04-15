@@ -55,7 +55,7 @@ HTML tags
 
 How are Elements different from Tags?
 
-Elements [`<Open>`](https://) and `</Close>`
+Elements are made of `<Open>` and `</Close>` tags.
 
 
 
