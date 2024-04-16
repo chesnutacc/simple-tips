@@ -84,15 +84,21 @@ For more information about how to use the __HTML Image Tag__, see Mozilla's offi
 
 ### HTML Elements
 
-How are Elements different from Tags?
-
-Elements are made of `<Open>` and `</Close>` tags.
-
-
+How are Elements different from Tags? Elements are made of `<Open>` and `</Close>` tags.
 
 No, it's nothing like a door opening and closing. Think of it more along the lines of __Beginning__ and __Ending__.
 
-`<>`
+One of the more commonly used HTML elements is the __[Paragraph Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)__, which is also shown in the diagram above.
+
+```html
+<p>
+  This is a paragraph.
+</p>
+```
+
+But because this isn't a guide to web development, let's move on to something more useful to casual users looking for some neat tricks.
+
+
 
 <br /><br />
 
