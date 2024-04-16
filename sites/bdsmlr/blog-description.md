@@ -56,6 +56,10 @@ If you want to start from scratch and only copy the span element, you can copy t
 
 As you might have seen in the template above for the Session ID fix, you can create multiple paragraphs in your blog description using the HTML Line Break tag. Make sure you use two of them to add a blank line between each paragraph, if that's what you're going for.
 
+## HTML Line Break
+
+Put simply, the `<br />` tag inserts what's called __hard break__ or __hard return__, which is essentially the same thing you do in Microsoft Word when you press <kbd>Enter</kbd> or <kbd>Return</kbd>.
+
 Click on __[Examples](#Examples)__ below to reveal some samples for an idea of how it works and what to expect. For more information, as well as an __interactive example__, visit Mozilla's official documentation [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br).
 
 
@@ -98,5 +102,20 @@ Second paragraph.
 
 
 
+<br />
+
+---
+
+# Embedding Hyperlinks
+
+Something else the BDSMLR site generation doesn't do is create hyperlinks if you post a URL in your description. So, if you want to make your own, you can use the __HTML Anchor Element__.
+
+## Basic Hyperlink Template
+
+```html
+<a href="URL">Display Text</a>
+```
+
+Using the above template, simply replace __URL__ with the actual target URL of the page you're linking to, then change __Display Text__ to whatever you want the hyperlink to say.
 
 
