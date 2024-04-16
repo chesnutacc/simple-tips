@@ -11,15 +11,18 @@ Fortunately, BDSMLR has a limited amount of HTML support for their blog descript
 
 There are other issues with the site's "Blog Description" feature, like how it removes any new lines so you can't have multiple paragraphs, and there are fixes for some of those issues too. But let's start with the Session ID issue.
 
+<br />
 
-## Session ID Fix
+---
+
+# Session ID Fix
 
 Long story short, when you're viewing a specific blog on BDSMLR, the site uses an "infinite scrolling" content loading method. This method relies on the position of your screen to initiate and load additional content. However, when a very long, uninterrupted string of characters (like a Session ID or website URL) force the mobile page beyond the width its designed for, this system breaks.
 
 Without getting too complicated, the core issue behind the Session ID issue is the lack of "word wrapping" in the site's style rules. To fix this, you can use the HTML Span Element to enable word wrapping so that the Session ID's continue on another line without actually breaking the ID for when you copy/paste it.
 
 
-### Basic Template
+## Basic Template
 
 ```html
 <span style="word-wrap: break-word;">
@@ -35,6 +38,7 @@ SESSION ID GOES HERE.
 </span>
 ```
 
+
 If you want to start from scratch and only copy the span element, you can copy the following code block:
 
 ```html
@@ -44,23 +48,55 @@ If you want to start from scratch and only copy the span element, you can copy t
 ```
 
 
-## Multiple Paragraphs
+<br />
+
+---
+
+# Multiple Paragraphs
 
 As you might have seen in the template above for the Session ID fix, you can create multiple paragraphs in your blog description using the HTML Line Break tag. Make sure you use two of them to add a blank line between each paragraph, if that's what you're going for.
 
-Here's an example...
+Click on __[Examples](#Examples)__ below to reveal some samples for an idea of how it works and what to expect. For more information, as well as an __interactive example__, visit Mozilla's official documentation [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br).
 
-### What you set:
+
+
+
+<details>
+<summary><h2 id="Examples">Examples</h2></summary>
+
+### Without HTML Breaks
+#### What you set:
+```
+First paragraph.
+
+Second paragraph.
+```
+
+#### How it renders:
+```
+First paragraph. Second paragraph.
+```
+
+
+### With HTML Breaks
+#### What you set:
 ```html
 First paragraph.
 
 <br /><br />
-Second Paragraph.
+Second paragraph.
 ```
 
-### How it renders:
+#### How it renders:
 ```
 First paragraph.
 
-Second Paragraph.
+Second paragraph.
 ```
+
+</details>
+
+
+
+
+
